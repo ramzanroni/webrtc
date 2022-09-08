@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+}
+
+.main-warp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+video {
+    background: black;
+    border: 1px solid gray;
+
+}
+
+.call-warp {
+    position: relative;
+    display: block;
+    padding: 10px;
+}
+
+#local-video {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 9;
+}
+
+#remote-video {
+    width: 500px;
+    height: 500px;
+}
+
+.chat-warp {
+    display: block;
+    width: 400px;
+    margin-left: 15px;
+    padding: 10px;
+
+}
